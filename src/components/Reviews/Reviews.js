@@ -1,4 +1,5 @@
 
+import Home from '../Home/Home';
 import useReviews from '../Hooks/useReviews';
 import Review from '../Review/Review';
 import './Reviews.css'
@@ -15,6 +16,13 @@ const Reviews = () => {
                 review={review}
                 ></Review>)
             }
+
+            {/* {
+                reviews.map(review => <Home
+                key={review.id}
+                review={review}
+                ></Home>)
+            } */}
         </div>
     );
 };

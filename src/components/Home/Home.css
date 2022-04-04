@@ -15,7 +15,11 @@
 }
 
 .image-container img{
-    width: 400px;
+    width: 350px;
+}
+
+.demo-btn{
+    margin-right: auto;
 }
 
 @media screen and (max-width:540px) {

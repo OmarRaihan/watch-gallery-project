@@ -1,0 +1,29 @@
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 100px 100px;
+}
+
+.hading-container h1, p{
+    text-align: justify;
+}
+
+.image-container{
+    margin-left: auto;
+}
+
+.image-container img{
+    width: 400px;
+}
+
+@media screen and (max-width:540px) {
+    .product-container{
+        display: block;
+    }
+
+    .image-container{
+        margin-top: 50px;
+    }
+}

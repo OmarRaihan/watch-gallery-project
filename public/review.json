@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Bill Clinton",
+        "ratings" : "5 star",
+        "comment":"The amaze Bip is the perfect watch for someone who wants more capabilities than a Fitbit, but doesn’t want or need to spend money on a Apple Watch. The watch is easy to navigate through, and looks sleek and simple."
+    },
+    {
+        "id": 2,
+        "name": "Tony Blare",
+        "ratings" : "4 star",
+        "comment":"Very light weight watch, super comfortable and slim. Great for your daily steps and all the notifications of apps that can be on it! You can choose which apps you want notifications to be sent to the watch so it’s super easy to customize to make it your perfect fit."
+    },
+    {
+        "id": 3,
+        "name": "Johnny Deep",
+        "ratings" : "5 star",
+        "comment":"Very light weight watch, super comfortable and slim. Great for your daily steps and all the notifications of apps that can be on it! You can choose which apps you want notifications to be sent to the watch so it’s super easy to customize to make it your perfect fit."
+    },
+    {
+        "id": 4,
+        "name": "Brad Pit",
+        "ratings" : "4 star",
+        "comment":"I put off getting a fit bit because I figured the novelty would wear off and my phone did the same and usually have my phone with me.  My techie kids talked me into it and I’m so glad they did!"
+    },
+    {
+        "id": 5,
+        "name": "John Cena",
+        "ratings" : "5 star",
+        "comment":"I am surprised how the screen scratched within 3 days of usage. Since it has gorilla glass I never thought of using a screen protector but I was wrong."
+    },
+    {
+        "id": 6,
+        "name": "Goldberg",
+        "ratings" : "5 star",
+        "comment":"I have owned the other expensive smart watches and after a year they just stop working so I thought I would give this one a try. It has features comparable to the other watches and does everything I wanted it too. The battery life is outstanding! "
+    }
+]

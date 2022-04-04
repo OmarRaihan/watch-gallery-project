@@ -16,6 +16,7 @@
     
     .header{
         display: block;
+        width: auto;
     }
 
     .header nav{

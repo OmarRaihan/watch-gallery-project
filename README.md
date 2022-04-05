@@ -10,7 +10,6 @@ Live Site Link :
 * Create a Review section with reviews
 * Created a Dashboard with Line and Area chart
 * Created a Blog section
->>>>>>> cf08d2524e6f1d8258d83f006f2d89dc9bb91773
 
 
 

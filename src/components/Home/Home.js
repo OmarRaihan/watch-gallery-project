@@ -36,10 +36,10 @@ const Home = () => {
       </div>
       </div>
       <div className="customer-review">
-        <h1 className="my-16 text-3xl font-bold">Customer Review</h1>
+        <h1 className="my-16 text-3xl font-bold">Customer Review (3)</h1>
         <div className="home-review">
           {
-            reviews.map(review => <HomeReview
+            reviews.slice(0, 3).map(review => <HomeReview
             key={review.id}
             review={review}
             ></HomeReview>)

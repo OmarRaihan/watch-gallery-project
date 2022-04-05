@@ -9,15 +9,7 @@ const Home = () => {
   const [reviews, setReviews] = useReviews();
 
   const navigate = useNavigate();
-  const seeAllReviews = () =>{
-    // <Routes>
-    //   <Route
-    //   path="/reviews" element={<Reviews/>}
-    //   >
-    //   </Route>
-    // </Routes>
-    // const path = `/reviews/${}`
-  }
+  
   return (
     <div className="full-container mb-16">
       <div className="product-container">
@@ -46,7 +38,7 @@ const Home = () => {
           }
         </div>
       </div>
-      <button onClick={seeAllReviews} className="bg-blue-500 px-6 py-1 rounded text-white">See All Reviews</button>
+      <button onClick={() => navigate("/reviews")} className="bg-blue-600 px-10 py-1 rounded text-white">See All Reviews</button>
     </div>
   );
 };

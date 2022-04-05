@@ -26,7 +26,7 @@
 }
 
 .demo-btn{
-    margin-right: auto;
+    justify-content: start;
 }
 
 @media screen and (max-width:540px) {

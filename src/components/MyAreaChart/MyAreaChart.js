@@ -1,5 +1,5 @@
 import React from "react";
-import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import { Area, AreaChart, XAxis, YAxis } from "recharts";
 
 const MyAreaChart = () => {
   const data = [

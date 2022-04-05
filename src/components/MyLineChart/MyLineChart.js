@@ -1,5 +1,5 @@
 import React from "react";
-import { Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import { Line, LineChart, XAxis, YAxis } from "recharts";
 
 const MyLineChart = () => {
   const data = [

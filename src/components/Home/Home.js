@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import HomeReview from "../HomeReview/HomeReview";
 import useReviews from "../Hooks/useReviews";
 import Reviews from "../Reviews/Reviews";

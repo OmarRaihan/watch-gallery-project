@@ -1,5 +1,4 @@
 
-import Home from '../Home/Home';
 import useReviews from '../Hooks/useReviews';
 import Review from '../Review/Review';
 import './Reviews.css'

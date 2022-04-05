@@ -16,13 +16,6 @@ const Reviews = () => {
                 review={review}
                 ></Review>)
             }
-
-            {/* {
-                reviews.map(review => <Home
-                key={review.id}
-                review={review}
-                ></Home>)
-            } */}
         </div>
     );
 };

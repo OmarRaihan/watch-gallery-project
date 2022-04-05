@@ -41,13 +41,13 @@ const MyAreaChart = () => {
     },
   ];
   return (
-      <AreaChart width={400} height={300} data={data}>
-        <Area dataKey={"sell"} fill="#DE3163"></Area>
-        <Area dataKey={"investment"} fill="#9FE2BF"></Area>
-        <Area dataKey={"revenue"} stroke="#FF7F50"></Area>
-        <XAxis dataKey={"month"}></XAxis>
-        <YAxis></YAxis>
-      </AreaChart>
+    <AreaChart width={400} height= {300} data={data}>
+      <Area dataKey={"sell"} fill="#DE3163"></Area>
+      <Area dataKey={"investment"} fill="#9FE2BF"></Area>
+      <Area dataKey={"revenue"} stroke="#FF7F50"></Area>
+      <XAxis dataKey={"month"}></XAxis>
+      <YAxis></YAxis>
+    </AreaChart>
   );
 };
 

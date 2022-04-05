@@ -18,6 +18,13 @@
     width: 350px;
 }
 
+.home-review{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
 .demo-btn{
     margin-right: auto;
 }
@@ -25,9 +32,16 @@
 @media screen and (max-width:540px) {
     .product-container{
         display: block;
+        margin: auto;
+        padding-left: 20px;
     }
 
     .image-container{
         margin-top: 50px;
+    }
+
+    .home-review{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
